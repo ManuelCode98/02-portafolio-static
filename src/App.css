@@ -1,0 +1,14 @@
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.located {
+    border: 3px dashed rgb(255, 0, 0);
+}
+.not-located {
+    border: 3px dashed white;
+}
