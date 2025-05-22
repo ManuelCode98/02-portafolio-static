@@ -28,16 +28,17 @@ const SkillsContainer = (  )=>{
                 <div className="skills">
                     <div>
                         <h3>Lenguaje de marcado de hipertexto y estilos</h3>
-                        <p>HTML y CSS para crear la estructura y el diseño de cada sitio web</p>
+                        <p>HTML y CSS para crear la estructura y el diseño de cada sitio web.</p>
                     </div>
                     <div>
                         <h3>Lenguajes de programación y tecnologías</h3>
-                        <p>JavaScript y React para agregar funcionalidades que sean interactivas y dinámicas</p>
-                        <p>NodeJs, ExpressJS y Prisma para hacer la lógica del lado del servidor</p>
+                        <p>JavaScript y React para agregar funcionalidades que sean interactivas y dinámicas.</p>
+                        <p>NodeJs, ExpressJS y Prisma para hacer la lógica del lado del servidor.</p>
+                        <p>Git y GitHub para controlar versiones y permitir a los desarrolladores colaborar y compartir codigo con los demas.</p>
                     </div>
                     <div>
                         <h3>Bases de datos</h3>
-                        <p>SQL, NoSQL: PostgreSQL y MongoDB para almacenar y gestionar la infomacion de manera eficiente</p>
+                        <p>SQL, NoSQL: PostgreSQL y MongoDB para almacenar y gestionar la infomacion de manera eficiente.</p>
                     </div>
                 </div>
             </div>
