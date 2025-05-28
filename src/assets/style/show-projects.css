@@ -96,6 +96,12 @@
     
 }
 
+
+.container-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
 .link {
     text-decoration: none;
     color: rgb(92, 77, 230);
@@ -166,6 +172,10 @@
     .container-data-project {
         width: 46%;
     }
+
+    .container-links {
+        margin-top: 0px;
+    }   
 
     .icons-container {
         width: 46%;

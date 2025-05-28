@@ -51,7 +51,14 @@ export const ShowProjects = ()=>{
                                     <div className='container-data-project'>
                                         <h4 className='title-project' >{projectValue.name_project}</h4>
                                         <p className='sub-title-project'>Tecnologias: <span className='technology'>{projectValue.name_technology}</span></p>
-                                        <a className='link' href={'https://'+projectValue.project_link} target='_blank' rel='noopener noreferrer' >Enlace del proyecto</a>
+                                        <div className='container-links'>
+                                            <a className='link' href={'https://'+projectValue.project_link} target='_blank' rel='noopener noreferrer' >Enlace del repositorio</a>
+                                            {(
+                                                projectValue.web_url.length ? 
+                                                <a className='link' href={'https://'+projectValue.web_url} target='_blank' rel='noopener noreferrer' >Enlace de la web</a>
+                                                : ''
+                                            )}
+                                        </div>
                                     </div>
                                     <div className='icons-container'>
                                         <button id={ projectValue.id } className = 'icons-projects icon-show' 
