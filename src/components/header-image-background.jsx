@@ -11,7 +11,7 @@ import '../assets/style/header-image-background.css';
 const title = 'Manuel Rodriguez';
 const subTitle = 'Desarrollador de software en Palmira-Colombia';
 const cv = 'Ver mi CV';
-const linkCv = 'https://docs.google.com/document/d/1FjwtVY-uXpHi9b4Q2Vxe4Ol46KWSpDdt/edit?usp=sharing&ouid=112308223268136842079&rtpof=true&sd=true';
+const linkCv = 'https://drive.google.com/file/d/1eaxYWf1h7BN9QSxsQzf_3KbMo38omLAR/view?usp=sharing';
 
 const linkLinkedin = 'https://www.linkedin.com/in/manuel-rodriguez-ba5b5b339/';
 const linkWhatsapp = 'https://wa.me/3157382433';
